@@ -1,0 +1,259 @@
+.wrap{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+/* top */
+
+.top ul{
+    display: flex;
+    padding: 5px;
+    flex-direction: row-reverse;
+    background-color: #f6f6f6;
+}
+
+.top a{
+    line-height: 20px;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.top a:hover{
+    background: white;
+}
+
+.top .tw a{
+    color: #00aaec;
+}
+
+.top .fb a{
+    color: #4460a0;
+    border-right: 1px solid #cccccc;
+}
+
+.top img{
+    padding-right: 5px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header h1 a{
+    display: block;
+    width: 224px;
+    height: 50px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:#00cc99;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menu a:hover{
+    border-bottom: #00cc99 3px solid;
+}
+
+/* banner */
+
+.banner{
+    height: 350px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.banner h2{
+    position: absolute;
+    font-size: 36px;
+    color:white;
+    line-height: 1.5;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 25px;
+}
+
+/* content */
+
+.content ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+}
+
+.html, .rwd, .jquery{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d0d0d0;
+    padding: 25px 0px;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.content p{
+    line-height: 1.5;
+    padding: 0px 20px;
+}
+
+.jquery li{
+    list-style-type: disc;
+    margin-left: 40px;
+    padding: 5px 0px;
+
+}
+
+/* compare */
+
+.compare{
+    margin-bottom: 65px;
+}
+
+.compare h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.compare table{
+    width: 840px;
+    margin: 0 auto;
+}
+
+.compare th, .compare td{
+    border-top: 1px solid #9d9d9d;
+    border-bottom: 1px solid #9d9d9d;
+    padding: 10px 30px;
+}
+
+.compare th{
+    background-color: #f0f0f0;
+    text-align: left;
+    font-weight: 500;
+}
+
+.compare .highlight{
+    color:#00a67d;
+}
+
+/* form */
+
+.form{
+    background: linear-gradient(#00654a, #009972);
+    padding: 30px;
+}
+
+.form h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+    line-height: 1.5;
+}
+
+.input form{
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea{
+    width: 400px;
+    resize: none;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.basic-info label, input{
+    display: block;
+}
+
+.basic-info label{
+    color:white;
+    margin-bottom: 5px;
+}
+
+.basic-info input{
+    width: 400px;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-style: none;
+    padding: 5px;
+}
+
+.basic-info input[type="submit"]{
+    cursor: pointer;
+    float: right;
+    border-style: none;
+    background-color: #00cc99;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+.basic-info input[type="submit"]:hover{
+    border:1px solid #00cc99;
+    background-color:transparent;
+    
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+footer h4 a{
+    display: block;
+    width: 171px;
+    height: 36px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info li{
+    padding: 5px 0px;
+}
+
+.info a{
+    color: #e32d7f;
+    text-decoration: none;
+}
